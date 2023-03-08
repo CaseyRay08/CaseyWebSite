@@ -23,6 +23,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    ExpenseTracker,
 } from "../assets";
 
 export const navLinks = [
@@ -212,7 +213,7 @@ const projects = [
             },
         ],
         image: carrent,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/CaseyRay08/Dev-Connect",
     },
     {
         name: "YelpCamp",
@@ -233,7 +234,7 @@ const projects = [
             },
         ],
         image: jobit,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/CaseyRay08/YelpCamp",
     },
     {
         name: "Clicker Challenge",
@@ -254,7 +255,70 @@ const projects = [
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/CaseyRay08/ClickerChallenge",
+    },
+    {
+        name: "Expense-Tracker",
+        description:
+            "Expenses & budget tool ",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "components",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: ExpenseTracker,
+        source_code_link: "https://github.com/CaseyRay08/Expense-Tracker",
+    },
+    {
+        name: "React Todo DnD",
+        description:
+            "React based, Click on the screen and an icon will appear, change icon, remove click, re-apply click, reset",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "components",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/CaseyRay08/ReactTodoDND",
+    },
+    {
+        name: "React Todo List",
+        description:
+            "React based, Click on the screen and an icon will appear, change icon, remove click, re-apply click, reset",
+        tags: [
+            {
+                name: "react",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "components",
+                color: "green-text-gradient",
+            },
+            {
+                name: "css",
+                color: "pink-text-gradient",
+            },
+        ],
+        image: tripguide,
+        source_code_link: "https://github.com/CaseyRay08/CreateReactTodoList",
     },
 ];
 
